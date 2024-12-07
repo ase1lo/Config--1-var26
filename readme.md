@@ -25,16 +25,35 @@
 
 Для запуска эмулятора выполните:
 
-```bash
-pip install -r requirements.txt
-```
+1. Удалите виртуальное окружение и создайте свое в соотвествии с операционной системой.
 
 На MacOS:
+```bash
+python3 -m venv venv
+```
 
+На Windows:
+```bash
+python -m venv venv
+```
+
+2. Запустите виртуальное окружение.
+
+На MacOS:
 ```bash
 source venv/bin/activate
 ```
 
+На Windows:
+```bash
+venv\Scripts\Activate.bat
+```
+
+3. Установите зависимости
+
+```bash
+pip install -r requirements.txt
+```
 
 ```bash
 python shell_emulator.py --username your_username --vfs path_to_zip_file --script path_to_startup_script (optional)

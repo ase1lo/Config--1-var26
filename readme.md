@@ -55,6 +55,8 @@ venv\Scripts\Activate.bat
 pip install -r requirements.txt
 ```
 
+
+*Запуск в свободном режиме*
 ```bash
 python shell_emulator.py --username your_username --vfs path_to_zip_file --script path_to_startup_script (optional)
 

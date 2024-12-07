@@ -85,4 +85,4 @@ Changed directory to dir1/dir12
 user@localhost:/dir1/dir12$ ls
 text2.txt
 ```
-![Скриншот тестов](photo/Снимок экрана 2024-12-05 в 17.21.57.png)
+![Скриншот тестов](photo/tests.png)

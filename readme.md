@@ -62,7 +62,7 @@ python shell_emulator.py --username your_username --vfs path_to_zip_file --scrip
 
 ```
 
-**Тестирование**
+**Тестирование**\n
 Для запуска тестов выполните:
 ```bash
 python test_shell_emulator.py

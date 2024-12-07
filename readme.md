@@ -86,3 +86,4 @@ user@localhost:/dir1/dir12$ ls
 text2.txt
 ```
 ![Скриншот тестов](photo/tests.png)
+![Скриншот тестов](photo/photo2.png)

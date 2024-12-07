@@ -77,15 +77,12 @@ requirements.txt – зависимости для установки.
 Запуск команд
 
 ```plaintext
-test_user@test_shell:/$ ls
-dir1
-dir2
-test_user@test_shell:/$ cd dir1
-test_user@test_shell:/dir1$ ls
-file1.txt
-file2.txt
-test_user@test_shell:/dir1$ tac file1.txt
-tnetnoC 1 eliF
-test_user@test_shell:/dir1$ cd ..
+user@localhost:/dir1$ ls
+dir12
+text1.txt
+user@localhost:/dir1$ cd dir12
+Changed directory to dir1/dir12
+user@localhost:/dir1/dir12$ ls
+text2.txt
 ```
 ![Скриншот тестов](photo/Снимок экрана 2024-12-05 в 17.21.57.png)
